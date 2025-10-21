@@ -1,0 +1,15 @@
+Q01 - Existe uma diferença em relação ao tempo de execução,
+onde a implementação concorrente teve um tempo de execução significativamente menor
+em relação à implementação serial.
+Além disso uma outra diferença significativa é que algumas threads são executadas ainda antes do fim 
+das configurações de Logs.
+
+Q02 - Ao alterar a nomeclatura das threads, é possivel ter uma melhor 
+legibilidade e entendimento do fluxo de execução das threads e o que 
+cada thread é responsável.
+
+Q03 - A thread principal é iniciada juntamente com as outras threads e
+é finalizada antes da finalização das demais threads(Setup-Logs e Check-Recursos).
+
+Q04 - Houve uma mudança no fluxo de execução, onde após a inserção do trecho de código,
+a thread principal agora só é finalizada após todas as demais threads serem finalizadas.

@@ -1,0 +1,5 @@
+A ordem de execução das tarefas se mantém a mesma, 
+seguindo a ordem dos recursos.
+O tempo mínimo seria [(1000 * 5) + 4000]ms. (onde a multiplicação por 5 é dada pela qauantidade recursos executados)
+O tempo máximo seria [(3000 * 5) + 4000]ms. (onde a multiplicação por 5 é dada pela qauantidade recursos executados)
+
